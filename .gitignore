@@ -1,6 +1,16 @@
-.idea/ 
-__pycache__/ 
-*.pyc 
-venv/ 
-.venv/ 
-.DS_Store 
+# PyCharm 特有
+.idea/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境 (如果你以后会用到)
+venv/
+env/
+.env
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
